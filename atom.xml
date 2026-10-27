@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>John Doe</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>http://example.com/</id>
+  <link href="http://example.com/" rel="alternate"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, John Doe</rights>
+  <title>空屋</title>
+  <updated>2026-10-27T04:08:08.188Z</updated>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <content>
+      <![CDATA[<h1 id="我的第一篇文章"><a href="#我的第一篇文章" class="headerlink" title="我的第一篇文章"></a>我的第一篇文章</h1><p>记录我搭建个人博客的日子</p>]]>
+    </content>
+    <id>http://example.com/2026/10/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="http://example.com/2026/10/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <published>2026-10-27T03:42:22.694Z</published>
+    <summary>
+      <![CDATA[<h1 id="我的第一篇文章"><a href="#我的第一篇文章" class="headerlink" title="我的第一篇文章"></a>我的第一篇文章</h1><p>记录我搭建个人博客的日子</p>]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-10-27T04:08:08.188Z</updated>
+  </entry>
+</feed>
