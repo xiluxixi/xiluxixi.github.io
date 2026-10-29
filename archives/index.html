@@ -415,21 +415,19 @@
             </div>
         </article>
         <div class="index-post-divider"></div>
-            
         <article class="index-post">
             <a class="abstract-title" href="/2026/10/27/PIC-%E8%BD%BD%E8%8D%B7%E5%AD%A6%E4%B9%A0/">
                 <span class="abstract-title-text">PIC 载荷学习</span>
             </a>
             <div class="abstract-content">
-                Position Independent Code (PIC)学习关于PIC所谓的PIC就是位置无关shellcode，在学习免杀的时候经常会碰到有病毒会通过动态解密shellcode然后运行的情况，现在来学习一下是如何编写的
-首先要了解下x86 架构的调用约定，熟悉每个指令的功能，这部分不需要硬记，llm辅助就行
-我的思路是使用python的keystone库，先将汇编代码转为机器码
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555...
+                <h1 id="Position-Independent-Code-PIC-学习"><a href="#Position-Independent-Code-PIC-学习" class="headerlink" title="Position Independent Code (PIC)学习"></a>Position Independent Code (PIC)学习</h1><h2 id="关于PIC"><a href="#关于PIC" class="headerlink" title="关于PIC"></a>关于PIC</h2><p>所谓的PIC就是位置无关shellcode，在学习免杀的时候经常会碰到有病毒会通过动态解密shellcode然后运行的情况，现在来学习一下是如何编写的</p>
+<p>首先要了解下x86 架构的调用约定，熟悉每个指令的功能，这部分不需要硬记，llm辅助就行</p>
+<p>我的思路是使用python的keystone库，先将汇编代码转为机器码</p>
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/28">
+                <div class="abstract-date" title="Last updated: 2026/10/29">
                     <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/27</span>
                 </div>
                 <!-- tags -->
@@ -459,23 +457,21 @@
             </div>
         </article>
         <div class="index-post-divider"></div>
-            
         <article class="index-post">
             <a class="abstract-title" href="/2026/10/27/360%E5%8A%A0%E5%9B%BA%E8%A7%A3%E6%9E%90/">
                 <span class="abstract-title-text">360加固解析</span>
             </a>
             <div class="abstract-content">
-                360加固解析知识点1:一般我们用jadx打开apk程序的java源代码时，有些字符串是被混淆了的，这些字符串我们要自己手动去解混崤有点麻烦，所以这里学到一个用jeb的python脚本解混淆的方法
-
-看这里的字符串都被a类的a方法先引用了，我们看a方法的加密逻辑
-
-很简单，就是一个异或加密，我们打开jeb，导入python脚本
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707...
+                <h1 id="360加固解析"><a href="#360加固解析" class="headerlink" title="360加固解析"></a>360加固解析</h1><h3 id="知识点1"><a href="#知识点1" class="headerlink" title="知识点1:"></a>知识点1:</h3><p>一般我们用jadx打开apk程序的java源代码时，有些字符串是被混淆了的，这些字符串我们要自己手动去解混崤有点麻烦，所以这里学到一个用jeb的python脚本解混淆的方法</p>
+<p><img src="/../images/image-20250613103655571.png" alt="image-20250613103655571"></p>
+<p>看这里的字符串都被a类的a方法先引用了，我们看a方法的加密逻辑</p>
+<p><img src="/../images/image-20250613103735503.png" alt="image-20250613103735503"></p>
+<p>很简单，就是一个异或加密，我们打开jeb，导入python脚本</p>
             </div>
             <!-- read more -->
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2026/10/27">
+                <div class="abstract-date" title="Last updated: 2026/10/29">
                     <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2026/10/27</span>
                 </div>
                 <!-- tags -->
